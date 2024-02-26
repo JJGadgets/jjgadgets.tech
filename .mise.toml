@@ -1,0 +1,7 @@
+[env]
+NODE_ENV = "production"
+
+[tools]
+node = ["18.14.1"]
+hugo = ["extended_0.123.3"]
+#go = ["1.22.0"]

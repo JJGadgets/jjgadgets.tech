@@ -1,3 +1,14 @@
+# JJ
+.hugo_build.lock
+public/
+ignore/
+.pem
+.key
+.pub
+.agekey
+publicExport.zip
+resources/_gen
+
 # Logs
 logs
 *.log
