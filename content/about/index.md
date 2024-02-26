@@ -35,6 +35,7 @@ Hey, I'm JJ. I have a deep interest in **Information Technology**. In particular
 ### Information Security (**infosec**)
 - Principle of Least Privilege
 - Penetration Testing
+- Finding and reporting vulnerabilities (e.g. [CVE-2023-43809/GHSA-mc97-99j4-vm2v](../2023/cve-2023-43809))
 - System Security, such as OS hardening
 - Multi-Factor Authentication with secure methods, such as WebAuthn and hardware security keys
 - Encryption in transit & Encryption at rest
@@ -43,7 +44,7 @@ Hey, I'm JJ. I have a deep interest in **Information Technology**. In particular
 - Integration with modern developer workflows such as DevOps & Kubernetes
 ### Networking
 - Subnetting and VLANs
-- Routing protocols (BGP, OSPF, OpenFabric, etc)
+- Routing protocols (BGP (iBGP, DN42, eBGP with public ASN), OSPF, OpenFabric, etc)
 - VPNs (WireGuard, Tailscale, OpenVPN) and tunnels (VXLAN, Geneve)
 ### Linux
 - Desktop Linux ecosystem (e.g. Wayland, SwayWM)
