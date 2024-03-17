@@ -10,8 +10,8 @@ toc: true
 
 I recently got a Ferris Sweep to get into the r/ErgoMechKeyboards cult, reduce shoulder strain from using a joint keyboard, and reduce finger movement and stretching when typing. I love this thing. I'm typing this very post with the Sweep on my iPad wirelessly!
 
-![Ferris Sweep on desk](Sweep.png)
-![Ferris Sweep with janky cardboard bottom case](Sweep-jank.jpg)
+![Ferris Sweep on desk](https://jjgadgets-tech.pages.dev/2024/ferris-sweep/Sweep.png)
+![Ferris Sweep with janky cardboard bottom case](https://jjgadgets-tech.pages.dev/2024/ferris-sweep/Sweep-jank.jpg)
 
 ## Specs
 
