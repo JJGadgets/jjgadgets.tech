@@ -13,6 +13,8 @@ I recently got a Ferris Sweep to get into the r/ErgoMechKeyboards cult, reduce s
 ![Ferris Sweep on desk](https://jjgadgets-tech.pages.dev/2024/ferris-sweep/Sweep.png)
 ![Ferris Sweep with janky cardboard bottom case](https://jjgadgets-tech.pages.dev/2024/ferris-sweep/Sweep-jank.jpg)
 
+> **⚠️ WARNING ⚠️**: I am **not** responsible for any readers falling into rabbit holes of building keyboards or modding keymaps without restraint, instead of actually doing typing or work. Ask me how I know. **You have been warned.**
+
 ## Specs
 
 This is a Ferris Sweep with MX profile keys, using Akko Crystal Silver switches and the stock Anne Pro 2 keycaps I had unused. It is wireless thanks to a nice!nano clone (SuperMini nRF52840) microcontroller, and runs the ZMK firmware.
