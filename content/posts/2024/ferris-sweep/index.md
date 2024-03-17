@@ -4,7 +4,7 @@ description: "My journey into the world (and cult) of split ergonomic keyboards.
 date: "2024-03-17T23:35:48+08:00"
 lastmod: "2024-03-17T23:35:48+08:00"
 slug: "2024/ferris-sweep"
-categories: ["Meyboards", "Ergonomics", "Technology"]
+categories: ["Keyboards", "Ergonomics", "Technology"]
 toc: true
 ---
 
