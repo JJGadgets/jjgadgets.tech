@@ -23,11 +23,11 @@ This is a Ferris Sweep with MX profile keys, using Akko Crystal Silver switches 
 
 Once I had the keyboard, I started making my own keymap based on some personal preferences and habits I had already known about my keyboard usage. I started with Colemak, and fit all of the numbers and symbols and navigation keys that aren't already covered by the default layer into the 2nd layer I named "num". I then fit modifiers and "text editing" keys on the thumb keys and hold-taps.
 
-While my initial keymap was mostly satisfactory, I did immediately start noticing issues with my typing habits that I never noticed on a normal ANSI stagger keyboard. Some of these could be fixed with optimising my keymap to my comforts, but most of these weren't a keymap issue.
+While my initial keymap was mostly satisfactory, I did immediately start **noticing issues with my typing habits** that I never noticed on a normal ANSI stagger keyboard. Some of these could be fixed with optimising my keymap to my comforts, but **most of these weren't a keymap issue**.
 
 ## Initial Struggles
 
-I had realized that while I was comfortable with typing in the Colemak layout, I was familiar with it on my Anne Pro 2 which had an ANSI stagger. This caused me to develop very bad finger habits, including:
+I had realized that while I was comfortable with typing in the Colemak layout, I was familiar with it on my Anne Pro 2 which had an ANSI stagger. This caused me to **develop very bad finger habits**, including:
 
 1. **Idle finger positions not on home row.** I would idle my left fingers on WASD (or WARS on Colemak) because I was used to that from gaming movements and it was more comfortable than cramping my fingers in a straight row for ASDF (or ARST on Colemak). On the Sweep, it was just natural to idle on home row because of the horizontal "ergo" stagger.
 2. **Hitting spacebar with the right index finger.** I thought I was used to hitting spacebar with the left thumb, but it turned out that was only during gaming where the left hand was doing movement and selecting items/skills and the right hand was aiming with the mouse. When I was doing actual typing fast,, I had subconsciously gotten used to using my right index to smash on the spacebar.
@@ -45,15 +45,19 @@ I never got very far with keybr to figure out any of these issues, but within th
 
 Unfortunately, these issues can't be solved by simply editing the layout. [I tried](https://github.com/JJGadgets/zmk-config/commit/2dff50a8e1ebd1bbbcd272433855cfe12665b32b), but it breaks more than it fixes. So, I had no choice but to resolve myself to re-building the proper habits.
 
+If you find that you're also struggling with bad typing habits that only show on split ergos, **you're not alone**. It's a part of the process. **Keep at it** and you'll find yourself more comfortable with proper typing habits the more you use the split ergo.
+
 ## Less Is Actually More
 
 I thought lesser keys was more hassle. I was comfortable with layers, but that was for "non-core" or lesser used keys like media controls, and the Home/End/PageUp/PageDown keys, but putting everything except alphabets behind layers was a whole new level.
 
-However, lesser keys meant lesser finger movements, which meant it was actually more comfortable to hit the non-alphabet keys without moving my fingers nearly as far. Combined with Colemak, I could feel the results of the reduced finger movement very quickly, and this was combined with the reduced shoulder strain now that I could spread the keyboard out further and avoid cramping up my shoulders to get in a (now not as much) comfortable typing position. More on the shoulders coming up!
+However, **lesser keys meant lesser finger movements**, which meant it was actually *more* comfortable to hit the non-alphabet keys without moving my fingers nearly as far. Combined with Colemak, I could feel the results of the reduced finger movement very quickly, and this was combined with the reduced shoulder strain now that I could spread the keyboard out further and avoid cramping up my shoulders to get in a (now not as much) comfortable typing position. More on the shoulders coming up!
 
 ## The Bliss of a Wireless Split Ergo
 
-Despite the struggles, I was already very happy with using the Sweep in less than 2 days. The reason was simple: I loved the freedom of having a wireless split ergo keyboard. I could place the keyboard wherever I wanted, however I wanted, without needing to cramp my fingers and shoulders up to accomodate the limited positioning of an un-split keyboard, and I could do this with just the device I was going to type on, and the Sweep halves. Nothing more. I could already feel the difference on my shoulders by day 2.
+Despite the struggles, I was already **very happy** with using the Sweep in less than 2 days. The reason was simple: **I loved the freedom of having a wireless split ergo keyboard.**
+
+I could place the keyboard wherever I wanted, however I wanted, without needing to cramp my fingers and shoulders up to accomodate the limited positioning of an un-split keyboard, and I could do this with just the device I was going to type on, and the Sweep halves. Nothing more. I could already feel the difference on my shoulders by day 2.
 
 It *has* to be wireless, split, and the ergo key layout, to achieve this level of freedom while retaining hand comfort. Without any one of those, I would not enjoy the keyboard at all.
 
@@ -106,6 +110,8 @@ I could get my desired keymap dialed in on ZMK much quicker than in QMK, I never
 
 It's also pretty neat that I can use ZMK keyboards in wired USB mode while still using only 1 cable, because the slave half will still connect to the master half using Bluetooth. So even if I have to use a cable, it's still less infuriating than having the TRRS jack coming out the side of the keyboard and blocking certain keyboard positions I prefer to use.
 
+(Oh, and ZMK's USB mode can run at 1000Hz and with eager debouncing (0ms press debounce, 5ms release debounce), making it *technically* possible to game with the wireless Sweep's left half connected over USB. The only issue left for me is ironing out my personal kinds on the GAME layer. It's 17 keys on one half after all.)
+
 For a split ergo setup specifically, I would personally use ZMK over QMK as much as I can.
 
 ## Conclusion
@@ -116,4 +122,4 @@ A diodeless single PCB keyboard like the Sweep also makes it more reassuring to 
 
 A 34 key keyboard also forces the user to build better habits over a keyboard with more keys while being cheaper to get into, even if it might occasionally be a hassle to not hve enough keys (e.g. gaming).
 
-I love my Sweep. It's been an amazing journey to get into using it full time, and I'm looking forward to fully mastering it and continue its usage.
+**I love my Sweep.** It's been an amazing journey to get into using it full time, and I'm looking forward to fully mastering it and continue its usage.
