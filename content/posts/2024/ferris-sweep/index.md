@@ -10,11 +10,11 @@ links:
   - title: JJ's ZMK Config Git Repo
     description: Git repo containing ZMK keymaps and configurations for ZMK keyboards.
     website: https://github.com/JJGadgets/zmk-config
-    image: brand-github.svg
+    image: /icons/brand-github.svg
   - title: Current repo commit permalink
     description: Repo link but references current commit as of time of writing.
     website: https://github.com/JJGadgets/zmk-config/tree/166d36d1dfb63afb90b64199d4a2f11a2948428d
-    image: brand-github.svg
+    image: /icons/brand-github.svg
 ---
 
 I recently got a Ferris Sweep to get into the r/ErgoMechKeyboards cult, reduce shoulder strain from using a joint keyboard, and reduce finger movement and stretching when typing. I love this thing. I'm typing this very post with the Sweep on my iPad wirelessly!
