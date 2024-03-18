@@ -6,6 +6,15 @@ lastmod: "2024-03-17T23:35:48+08:00"
 slug: "2024/ferris-sweep"
 categories: ["Keyboards", "Ergonomics", "Technology"]
 toc: true
+links:
+  - title: JJ's ZMK Config Git Repo
+    description: Git repo containing ZMK keymaps and configurations for ZMK keyboards.
+    website: https://github.com/JJGadgets/zmk-config
+    image: brand-github.svg
+  - title: Current repo commit permalink
+    description: Repo link but references current commit as of time of writing.
+    website: https://github.com/JJGadgets/zmk-config/tree/166d36d1dfb63afb90b64199d4a2f11a2948428d
+    image: brand-github.svg
 ---
 
 I recently got a Ferris Sweep to get into the r/ErgoMechKeyboards cult, reduce shoulder strain from using a joint keyboard, and reduce finger movement and stretching when typing. I love this thing. I'm typing this very post with the Sweep on my iPad wirelessly!
@@ -77,7 +86,7 @@ The main thing was I wanted a wireless split ergo **now**, and I wanted to stop 
 
 ## My Layout
 
-My current layout, which can be found on [Git](https://github.com/JJGadgets/zmk-config/tree/166d36d1dfb63afb90b64199d4a2f11a2948428d), currently features the following, tailored to my personal preferences and natural flow of thinking and typing:
+My current layout, which can be found on [Git (current commit as of time of writing)](https://github.com/JJGadgets/zmk-config/tree/166d36d1dfb63afb90b64199d4a2f11a2948428d), currently features the following, tailored to my personal preferences and natural flow of thinking and typing:
 
 ### Colemak layout
 - Comfortable, easy to switch from and with QWERTY in case I use a device I don't own that I can't use my Sweep on, not mod-DH because I couldn't get used to it
