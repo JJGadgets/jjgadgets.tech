@@ -97,6 +97,15 @@ My current layout, which can be found on [Git (current commit as of time of writ
 - Gaming layer has top 2 rows on left half moved to the right by 1 column and remapped to use middle 3 rows for WASD (or WARS on Colemak), right half stays the same
 ### Bottom row mods
 - Home row mods got in my way more often, and this makes the most used home row delay free
+#### UPDATE: bilateral combinations (cross-hand)
+> **2024-03-26**: I have now added cross-hand settings to my bottom row mods, and I found that I'm liking them more than I thought I would.
+> 
+> I initially thought that the ZMK `hold-trigger-key-positions` settings meant that the mods actvation would only work if the next key is on the other half, but upon re-reading, that is only true for the interrupt time window for `balanced` or `hold-preferred` hold-tap flavors, between initial press down and `tapping-term-ms`. It doesn't affect holding past `tapping-term-ms`, meaning **you can still use same-hand mods once you hold the mod key past `tapping-term-ms`**, no workflow changes there.
+> 
+> Additionally, I've only ever used mods on the left half of the keyboard on normal ANSI keyboards such as on laptops, as I find the right hand mods uncomfortable to hold and use. However, upon adding the `hold-trigger-key-positions`, I found that I actually quite liked using cross-hand bottom row mods and having them activate blazing fast, and that it was significantly more comfortable using right hand mods when used in bottom row mode on split ergo keyboards, rather than where right hand mods would be located on a normal ANSI keyboard.
+> 
+> So I now use urob's home-row mods behavior snippet from his [zmk-config's README.md](https://github.com/urob/zmk-config/tree/f27b0031cb6868ff6c0389b39a032fed4b483d25?tab=readme-ov-file#timeless-homerow-mods) wholesale rather than tweaking it like I had before, and I love it. It's the same behavior I wanted for same-hand mods, for those lazy moments, but much faster cross-hand without introducing finger roll issues, and much more comfortable than normal ANSI keyboards' right hand mods. I would definitely recommend giving the entire behavior snippet a try before tweaking it (like I always do).
+
 ### Shared space shift thumb button
 - I want space and shift on left half because of familiraity and to free up right hand for mouse use, but it was too annoying to have them separate as I would keep mixing them up and tripping over my left thumb. I am aware this slows me down, but it's more natural and comfortable.
 ### My layer switching system
@@ -106,6 +115,10 @@ My current layout, which can be found on [Git (current commit as of time of writ
 - I wanted Control on a thumb key to make Control+[Z|X|C|V] easier, and ESC on a thumb key because of Vim modes, but also wanted my "to layer 0" or "unlock non-default-layer layer lock" key to be harmless if tapped on the default layer 0. What better than to combine all of those as 1 well known key!
 ### Mod-morphs everywhere
 - I use mod-morphs for many things, such as Alt+Tab on default layer (for non-Linux-WM machines like Windows gaming rig), and custom shifted keys like a custom colon key where colon is the unmodded tap and semicolon is the shift tap (easier for both Vim and YAML). It was also nicer to not have everything be time-based such as tap-hold or tap-dance.
+### Combos
+- **2024-03-26**: I use combos for some things I would like faster access to, and smashing 2 keys, when placed optimally, is faster than holding a key for a layer and then hitting the target key. I frequently use it for hyphen (`-`) and Enter key.
+    - For the Enter key, I have the middle 3 home row keys as the combo activation, which makhes it much safer than putting the Enter key on the thumb keys while I'm still getting used to the thumb pressing more than 1 finger (think preventing accidental form submissions or sending messages), while making it pretty comfortable to activate.
+    - I just smack my 3 middle fingers down harder than my typing force and it reliably activates, unlike my initial combo of the rightmost 2 homerow keys where my pinky and ring finger would frequently press with different forces and timings making it hard to reliably activate.).
 
 ## ZMK vs QMK
 
