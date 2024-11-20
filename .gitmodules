@@ -1,9 +1,20 @@
 [submodule "themes/hugo-theme-stack"]
 	path = themes/hugo-theme-stack
 	url = https://github.com/CaiJimmy/hugo-theme-stack/
-[submodule "assets/images"]
-	path = assets/images
-	url = https://github.com/JJGadgets/images
 [submodule "static/images"]
 	path = static/images
 	url = https://github.com/JJGadgets/images
+[submodule "assets/js/mastodon-comments"]
+	path = assets/js/mastodon-comments
+	url = https://github.com/dpecos/mastodon-comments
+[submodule "assets/images"]
+	path = assets/images
+	url = https://github.com/JJGadgets/images.git
+[submodule "assets/js/cure53/DOMPurify"]
+	path = assets/js/cure53/DOMPurify
+	url = https://github.com/cure53/DOMPurify
+	branch = 3.2.0
+[submodule "assets/js/dimsemenov/PhotoSwipe"]
+	path = assets/js/dimsemenov/PhotoSwipe
+	url = https://github.com/dimsemenov/PhotoSwipe
+	branch = v4.1.3

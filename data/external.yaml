@@ -1,1 +1,32 @@
-null
+Vibrant:
+    - src: /assets/js/vibrant.min.js
+      type: script
+
+PhotoSwipe:
+    - src: /assets/js/photoswipe.min.js
+      type: script
+      defer: true
+
+    - src: /assets/js/photoswipe-ui-default.min.js
+      type: script
+      defer: true
+
+    - src: /assets/js/default-skin/default-skin.min.css
+      type: style
+
+    - src: /assets/js/photoswipe.min.css
+      type: style
+
+KaTeX:
+    - src: /assets/js/katex.min.css
+      type: style
+
+    - src: /assets/js/katex.min.js
+      type: script
+      defer: true
+
+    - src: /assets/js/contrib/auto-render.min.js
+      type: script
+      defer: true
+
+Cactus: []
