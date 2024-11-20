@@ -5,7 +5,13 @@ date: "2024-10-15T22:33:02+08:00"
 lastmod: "2024-10-15T22:33:02+08:00"
 slug: "2024/avoid-wd-nvme-aspm"
 toc: true
+iframe: "https://social.jjgadgets.tech/@jj/statuses/01JAMKE2KVXX96A9ZFHXG2238P"
 categories: [storage, hardware, disaster-recovery]
+comments:
+  host: social.jjgadgets.tech
+  username: jj
+  id: 01J3EXFM3STA1QJR9J7ABRWK1A
+  # id: 01JAMKE2KVXX96A9ZFHXG2238P
 ---
 # PSA: **Avoid Western Digital (WD) NVMe SSDs** if you want stable working PCIe ASPM. And no I/O errors.
 
@@ -29,7 +35,7 @@ Also, because I bought 4x 1TB SN550 drives from Amazon US during an Amazon SG sa
 
 Last month, I bought a 2TB SN770 for use in my gaming rig, thinking "well, it's only a gaming rig, with mainly games on it (due to SMB Folder Redirection storing my user folders on my NAS), surely, going with WD again due to it being the cheapest 2TB on Amazon SG at the time, that's no big deal right? I don't mind replacing 3 years down the road once it wears!". Oh, how naive last month me was.
 
-I `dd` transferred my data from a different 1TB SN550 (the one from the gaming rig) to the 2TB SN770. Less than a week into using the SN770, I run a `chkdsk` on Windows (as GParted partition move needed it), and I start getting BSoDs on 9/10 boot attempts. Even after booting, it was 50/50 whether it will crash in a few hours or not. 
+I `dd` transferred my data from a different 1TB SN550 (the one from the gaming rig) to the 2TB SN770. Less than a week into using the SN770, I run a `chkdsk` on Windows (as GParted partition move needed it), and I start getting BSoDs with error code `WHEA_HARDWARE_ERROR` on 9/10 boot attempts. The actual blue screen would only last for less than a second before the machine force reboots itself, and I needed to record my monitor to catch the error code. Even after booting, it was 50/50 whether it will crash in a few hours or not.
 
 I was unsure if the `chkdsk` had screwed my data in any way, and wanted to continue gaming, and honestly wanted to take the easy way out using my 30 day Amazon return, so I swapped back to the previous 1TB SN550 for my gaming rig, put the SN770 in the recovery rig, this time to wipe its data for the Amazon return as the old gaming rig SN550 was still working fine (*knocks on wood*), and lo and behold: only the UEFI could detect it.
 
@@ -52,3 +58,7 @@ For my laptop, I got a 2TB SK Hynix P31 Gold from Amazon SG with no offers (as I
 I still have 2x WD SN550 drives in use today on my R730xd server, and once those give out (hopefully not soon), it won't be replaced with another WD NVMe SSD, though I'm not sure what it'll be yet or even what size as I plan to restructure that part of my homelab (or more realistically, home-prod).
 
 > When I wrote this, I had just finished the `dd if=/dev/urandom of=/dev/nvme0n1` on the SN770, it's now a few days later and my money has been refunded after returning the SN770 to Amazon, so I'm now publishing this post.
+
+## Comments (from Fediverse)
+
+{{< iframe "https://social.jjgadgets.tech/@jj/statuses/01JAMKE2KVXX96A9ZFHXG2238P" >}}
