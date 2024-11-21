@@ -1,8 +1,0 @@
-{
-  "dependencies": {
-    "dompurify": "^3.2.1",
-    "katex": "^0.15.6",
-    "node-vibrant": "^3.1.6",
-    "photoswipe": "^4.1.3"
-  }
-}
