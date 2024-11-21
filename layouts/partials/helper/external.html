@@ -5,7 +5,8 @@
             <script 
                 crossorigin="anonymous" 
                 {{- with resources.GetRemote .src -}}
-                    {{- with resources.Copy .Name . -}}
+                    {{- $newPath := print "assets/js" .Name -}}
+                    {{- with resources.Copy $newPath . -}}
                         src="{{ .RelPermalink }}" 
                         {{- with . | fingerprint "sha256" -}}
                             integrity="{{ .Data.Integrity }}" 
@@ -19,7 +20,8 @@
             <link 
                 rel="stylesheet" 
                 {{- with resources.GetRemote .src -}}
-                    {{- with resources.Copy .Name . -}}
+                    {{- $newPath := print "assets/css" .Name -}}
+                    {{- with resources.Copy $newPath . -}}
                         href="{{ .RelPermalink }}"
                         {{- with . | fingerprint "sha256" -}}
                             integrity="{{ .Data.Integrity }}" 
