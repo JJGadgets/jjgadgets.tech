@@ -1,0 +1,7 @@
+{{- with .File -}}
+  {{- if eq .Section "go" -}}
+    {{- $domain := (replace (replace (absURL "/") "https://" "") "/" "") -}}
+    <meta name="go-import" content="{{- with $.Page.Params -}}{{- if .github -}}{{$domain}}/go/{{.github}} git https://github.com/JJGadgets/{{.github}}{{- else -}}{{.module.path}} {{.repository.type}} {{.repository.url}}{{- end -}}{{- end -}}">
+
+  {{- end -}}
+{{- end -}}
