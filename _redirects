@@ -1,2 +1,1 @@
 /go/:module/* /go/:module 200
-/.well-known/matrix/* /.well-known/matrix/:splat.json 200
