@@ -1,2 +1,1 @@
 /go/:module/* /go/:module 200
-/.well-known/matrix/* https://continuwuity.jjgadgets.tech/.well-known/matrix/:splat 301
