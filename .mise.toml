@@ -2,7 +2,7 @@
 NODE_ENV = "production"
 
 [tools]
-node = ["18.20.8"]
+node = ["24.13.0"]
 hugo = ["extended_0.154.5"]
 "aqua:gohugoio/hugo/hugo-extended" = ["0.154.5"]
 "npm:wrangler" = ["3.114.16"]
