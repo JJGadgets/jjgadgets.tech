@@ -11,9 +11,9 @@
       "matchStrings": [
         "HUGO_VERSION *= *\"?(?<currentValue>[\\d\\.]+)\"?"
       ],
-      "datasourceTemplate": "go",
+      "datasourceTemplate": "github-releases",
       "versioningTemplate": "semver-coerced",
-      "depNameTemplate": "github.com/gohugoio/hugo"
+      "depNameTemplate": "gohugoio/hugo"
     },
     {
       "description": ["Wrangler - Node version"],
