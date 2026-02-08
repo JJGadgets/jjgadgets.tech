@@ -17,4 +17,4 @@
 [submodule "assets/js/dimsemenov/PhotoSwipe"]
 	path = assets/js/dimsemenov/PhotoSwipe
 	url = https://github.com/dimsemenov/PhotoSwipe
-	branch = v4.1.3
+	branch = v5.4.4
