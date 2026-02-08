@@ -2,5 +2,41 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "git-submodules": {
     "enabled": true
-  }
+  },
+  "customManagers": [
+    {
+      "description": ["Wrangler - Hugo version"],
+      "customType": "regex",
+      "managerFilePatterns": ["/^wrangler\\.toml$/"],
+      "matchStrings": [
+        "HUGO_VERSION *= *\"?(?<currentValue>[\\d\\.]+)\"?"
+      ],
+      "datasourceTemplate": "go",
+      "versioningTemplate": "semver-coerced",
+      "depNameTemplate": "github.com/gohugoio/hugo"
+    },
+    {
+      "description": ["Wrangler - Node version"],
+      "customType": "regex",
+      "managerFilePatterns": ["/^wrangler\\.toml$/"],
+      "matchStrings": [
+        "NODE_VERSION *= *\"?(?<currentValue>[\\d\\.]+)\"?"
+      ],
+      "datasourceTemplate": "node-version",
+      "versioningTemplate": "node",
+      "depNameTemplate": "nodejs/node"
+    }
+  ],
+  "packageRules": [
+    {
+      "description": "Hugo Group",
+      "groupName": "hugo",
+      "matchPackageNames": ["**hugo", "**hugo**", "hugo**", "github.com/gohugoio/hugo"]
+    },
+    {
+      "description": "Node Group",
+      "groupName": "node",
+      "matchPackageNames": ["**node", "**node**", "node**", "nodejs/node"]
+    }
+  ]
 }
