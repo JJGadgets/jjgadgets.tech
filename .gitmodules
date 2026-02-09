@@ -1,7 +1,7 @@
 [submodule "themes/hugo-theme-stack"]
 	path = themes/hugo-theme-stack
 	url = https://github.com/CaiJimmy/hugo-theme-stack/
-	branch = v3.21.0
+	branch = v3.34.1
 [submodule "static/images"]
 	path = static/images
 	url = https://github.com/JJGadgets/images
