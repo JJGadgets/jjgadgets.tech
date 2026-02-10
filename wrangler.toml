@@ -6,7 +6,7 @@ build.command = "npm install || true; hugo --baseURL $CF_PAGES_URL --minify --gc
 
 [vars]
 HUGO_VERSION = "0.155.2"
-NODE_VERSION = "18.20.8"
+NODE_VERSION = "24.13.1"
 
 # [env.production.vars]
 # HUGO_VERSION = "0.155.2"
