@@ -1,2 +1,3 @@
 /go/:module/* /go/:module 200
 /.well-known/matrix/* https://continuwuity.jjgadgets.tech/.well-known/matrix/:splat 301
+/.well-known/atproto-did https://bluesky.jjgadgets.tech/.well-known/atproto-did 301
