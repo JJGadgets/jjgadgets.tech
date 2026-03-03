@@ -7,8 +7,8 @@ compatibility_date = "2026-02-08"
 # command = "npm install || true; hugo --baseURL $CF_PAGES_URL --minify --gc"
 
 [vars]
-HUGO_VERSION = "0.122.0"
+HUGO_VERSION = "0.157.0"
 NODE_VERSION = "18.20.8"
 
 # [env.production.vars]
-# HUGO_VERSION = "0.155.2"
+# HUGO_VERSION = "0.157.0"
