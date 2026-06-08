@@ -3,7 +3,7 @@ NODE_ENV = "production"
 
 [tools]
 node = ["18.20.8"]
-hugo = ["extended_0.162.1"]
+hugo = ["extended_0.163.0"]
 "aqua:gohugoio/hugo/hugo-extended" = ["0.163.0"]
 "npm:wrangler" = ["3.114.17"]
 # "npm:node-vibrant" = ["3.1.4"]
